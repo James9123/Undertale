@@ -1,0 +1,49 @@
+.container {
+
+}
+
+
+#battle {
+    position: fixed;
+    width: 1067px;
+    height: 800px;
+    box-sizing: content-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#background {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1115px; /* Width of image */
+  height: 435px; /* Height of image */
+  position: fixed;
+  right: 50%;
+  top: -10%;
+  transform: translate(50%);
+
+}
+#box {
+    position: fixed;
+    bottom: 21%;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;
+    display: block;
+    border: 10px solid white;
+}
+
+.buttons {
+    position: static;
+}
+
+.row {
+    width: 1115px;
+    height: auto;
+    margin: auto;
+    position:fixed;
+    bottom: 0;
+    right: 50%;
+    transform: translate(51.5%);
+}
